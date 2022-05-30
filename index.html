@@ -5,92 +5,119 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b4971a44cf.js" crossorigin="anonymous"></script>
 
     <title>Site Aulão - StartSe</title>
 </head>
 
 <body>
-    <section id="presentation">
+
+    <main id="presentation">
+
+        <nav id="navbar">
+            <button id="btn"><i id="btn-hidden" class="fa-solid fa-terminal"></i></button>
+            <ul id="menu">
+                <li><a href="#presentation">0xh3lt0n</a></li>
+                <li><a href="#articles">Artigos e Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
         <div class="presentation container">
             <div>
                 <h1>Olá,<span></span></h1>
                 <h1> meu nome é<span></span></h1>
                 <h1> Helton<span></span></h1>
-                <a href="#portfolio" type="button" class="cta">Portfolio</a>
+                <a href="#articles" type="button" class="cta">Artigos e projetos</a>
             </div>
         </div>
-    </section>
 
-    <section id="portfolio" class="bg">
+    </main>
 
-        <!--removi a class 'portfolio que existia aqui, pois nenhum função foi aplicada a ela'-->
+
+    <section id="articles" class="bg">
+        <!--removi a class 'articles que existia aqui, pois nenhum função foi aplicada a ela'-->
         <div class="container-column">
 
-            <div class="portfolio-header">
-                <h1 class="section-title"><span>Portifólio</span></h1>
+            <div class="articles-header">
+                <h1 class="section-title"><span>Artigos e Projetos</span></h1>
             </div>
 
             <div class="all-projects">
 
-                <div class="project-item">
+                <article class="card">
 
-                    <div class="project-info">
-                        <h1>Projeto 1</h1>
-                        <h2>Estudando HTML</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                            galley of type and scrambled it to make a type specimen book.</p>
+                    <div class="card-info">
+                        <h1>Finans</h1>
+                        <h2>Projeto</h2>
+                        <p>Site fictício criado utilizando Bootstrap com a finalidade de colocar em prática o conhecimento adquirido no módulo Bootstrap do Curso de Desenvolvimento Web.</p>
+                        <span><a target="_blank" href="https://github.com/Holiv/finans-bootstrap"><i class="fa-brands fa-github"></i></a></span>
+                        <span><a target="_blank" href="https://holiv.github.io/finans-bootstrap/"><i class="fa-solid fa-globe"></i></a></span>
                     </div>
 
-                    <div class="project-img">
+                    <div class="card-img">
                         <img src="src/background-rec.jpg" alt="img">
                     </div>
 
-                </div>
+                </article>
 
-                <div class="project-item">
-                    <div class="project-info">
-                        <h1>Projeto 2</h1>
-                        <h2>Estudando CSS</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                            galley of type and scrambled it to make a type specimen book.</p>
+                <article class="card">
+                    <div class="card-info">
+                        <h1>Sistema Hexadecimal</h1>
+                        <h2>Artigo</h2>
+                        <p>Se você trabalha com Desenvolvimento Web, Designer Gráfico, Ciência da Computação ou é um estudante de alguma dessas áreas já deve ter ouvido falar do Sistema Hexadecimal ou já dever ter visto um código similar a #FFFFFF ou #000000 por aí. E se você é um desenvolvedor ou pretende ser um é imprescindível que você conheça esse sistema.</p>
+                        <span><a target="_blank" href="https://www.linkedin.com/pulse/introdu%C3%A7%C3%A3o-aosistema-hexadecimal-helton-oliveira/"><i class="fa-solid fa-globe"></i></a></span>
                     </div>
-                    <div class="project-img">
+                    <div class="card-img">
                         <img src="src/background-rec2.jpg" alt="img">
                     </div>
-                </div>
+                </article>
 
-                <div class="project-item">
-                    <div class="project-info">
-                        <h1>Projeto 3</h1>
-                        <h2>Estudando JavaScript</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                            galley of type and scrambled it to make a type specimen book.</p>
+                <article class="card">
+                    <div class="card-info">
+                        <h1>Verificador de Soma</h1>
+                        <h2>Projeto</h2>
+                        <p>O projeto é um simples verificador de soma que recebe dois valores como input. O projeto foi desenvolvido com o objetivo de praticar conhecimentos iniciais em JavaScript.</p>
+                        <span><a target="_blank" href="https://github.com/Holiv/js-beginner-verificador-soma"><i class="fa-brands fa-github"></i></a></span>
+                        <span><a target="_blank" href="https://holiv.github.io/js-beginner-verificador-soma/"><i class="fa-solid fa-globe"></i></a></span>
                     </div>
-                    <div class="project-img">
+                    <div class="card-img">
                         <img src="src/background-rec3.jpg" alt="img">
                     </div>
-                </div>
+                </article>
 
-                <div class="project-item">
-                    <div class="project-info">
-                        <h1>Projeto 4</h1>
-                        <h2>Estudando C++</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
-                            galley of type and scrambled it to make a type specimen book.</p>
+                <article class="card">
+                    <div class="card-info">
+                        <h1>Contador</h1>
+                        <h2>Projeto</h2>
+                        <p>Projeto com a finalidade de fazer uma Introdução ao JavaScript e a manipulação do DOM utilizando o JavaScript. Foi criado um contador que varia de 0 a 10, desativando os botões quando os limites são atingidos e uma mensagem é mostrada</p>
+                        <span><a target="_blank" href="https://github.com/Holiv/js-beginner-counter"><i class="fa-brands fa-github"></i></a></span>
+                        <span><a target="_blank" href="https://holiv.github.io/js-beginner-counter/"><i class="fa-solid fa-globe"></i></a></span>
                     </div>
-                    <div class="project-img">
+                    <div class="card-img">
                         <img src="src/background-rec4.jpg" alt="img">
                     </div>
-                </div>
-
+                </article>
             </div>
         </div>
     </section>
 
+    <footer id="contato">
+        <div>
+            <a href="#"><span><i class="fa-brands fa-github"></i></span>  github.com/holiv</a>
+        </div>
+        <div>
+            <a href="https://www.linkedin.com/in/helton-oliveira-521abbb2/"><span><i class="fa-brands fa-linkedin"></i></span>  linkedin.com/helton</a>
+        </div>
+        <div>
+            <a href="mailto:mrheltonso@gmail.com"><span><i class="fa-solid fa-envelope"></i></i></span><span>mrheltonso@gmail.com</span></a>
+        </div>
+        <div>
+            <a href="https:wa.me/+5522996209854"><span><i class="fa-solid fa-phone"></i></i></span> (22) 99620-9854</a>
+        </div>
+    </footer>
+
+    <script async src="script.js"></script>
 </body>
 
 </html>
