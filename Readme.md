@@ -1,5 +1,8 @@
 # Modelo Portifólio
 #### Confira <a href="https://holiv.github.io/modelo-portfolio-startse/">Aqui</a>
+<div align='center'>
+<img src="https://i.ibb.co/TbhPcZf/demonstra-o2.gif" width="100%">
+</div>
 ## Criação de Portfólio responsívo utilizando HTML e CSS
 
 Criação de Site/Portifólio durante aulão da Tech Academy (StartSe).
@@ -11,6 +14,4 @@ Elementos:
 <li>Media Queries</li>
 <li>Animaçõess</li>
 <li>Pseudo Elementos</li>
-
-
-###### O projeto será refatorado posteriormente utilizando tags semanticas, melhor organização dos elementos CSS e com conteuo real.
+<li>JS adicionado aprenas para a função Toggle da Navbar</li>
