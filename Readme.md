@@ -2,7 +2,7 @@
 #### Confira <a href="https://holiv.github.io/modelo-portfolio-startse/">Aqui</a>
 
 <div align = "center">
-<img src="https://i.ibb.co/TbhPcZf/demonstra-o2.gif" width="100%">
+<img src="/src/IMG_0498.PNG" width="100%">
 </div>
 
 ## Criação de Portfólio responsívo utilizando HTML e CSS
