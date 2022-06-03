@@ -3,6 +3,7 @@
 <div align='center'>
 <img src="https://i.ibb.co/TbhPcZf/demonstra-o2.gif" width="100%">
 </div>
+
 ## Criação de Portfólio responsívo utilizando HTML e CSS
 
 Criação de Site/Portifólio durante aulão da Tech Academy (StartSe).
