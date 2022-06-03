@@ -1,6 +1,7 @@
 # Modelo Portifólio
 #### Confira <a href="https://holiv.github.io/modelo-portfolio-startse/">Aqui</a>
-<div align='center'>
+
+<div align = "center">
 <img src="https://i.ibb.co/TbhPcZf/demonstra-o2.gif" width="100%">
 </div>
 
